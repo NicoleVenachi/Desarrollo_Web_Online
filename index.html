@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Nicole Venachi </title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Font Awesome-->
+        <script src="https://kit.fontawesome.com/6c7ca290de.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    </head>
+    <body>
+    
+        <header class="header sticky-top">  
+            <div class="container">
+                <figure class="list-group-item-info">
+                    <img class="nav_img" src="images/logo_resize.png" alt="Logo">   
+                </figure>
+                <nav class="dropdown-menu-left">   
+                    <ol>   
+                        <li> 
+                            <a href="#portafolio" class="link"> Portafolio </a>   
+                        </li>
+                        <li> 
+                            <a href="#eventos" class="link"> Experiencia </a>   
+                        </li>
+                        <li> 
+                            <a href="#contacto" class="link"> Trabajemos Juntos </a>   
+                        </li>
+                    </ol>
+                </nav>
+            </div>        
+        </header>
+        
+        <section class="hero">   
+            <div class="container heroCont">
+                <h1> Hola! Soy <strong> Nicole Venachi  </strong>, Ingeniero <br> en <strong> Electrónica y Telecomunicaciones</strong>, <br> con paisón por el <strong> desarrollo </strong> web.
+            </h1>
+            </div>        
+        </section> <!--   Sección Principal -->
+            
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <h2 style="font-weight: bold; font-size: 2em; margin-bottom: 20px;"> Portafolio (Proyectos Destacados) </h2>
+                <article class="project-article">
+
+                    <div class="project-details">
+                        <h3 class="project-title"> Platzi Conf Hawaii </h3>
+                        <h6 class="project-course" style="margin: 10px 0;"> Bootstrap 4 </h6>
+                        <p class="project-date" style="margin: 10px 0;"> <small> <strong style="font-family: 'Fjalla One', sans-serif;"> Fecha: </strong> 2019 </small> </p>
+                        <p class="project-link" style="margin: 10px 0;"> <small> <strong  style="font-family: 'Fjalla One', sans-serif;"> Puedes verlo en: </strong> https://nicolevenachi.github.io/curso_bootstrap_4/ </small> </p> 
+                        <p class="project-description text-justify" style="font-size: 1.2em;"> Platzi Conf Hawaii es un proyecto elaborado en un cruso de Bootstrap 4, en el cual empleando algunos componentes de Bootstrap desarrollé una página informativa, atractiva para el usuario y responsive. </p>
+
+                    </div>
+
+                    <figure class="project-imageContainer"> 
+                        <img class="img" src="images/Bootstrap_poject_logo.png" alt="Proyecto curso Bootrstrap_4">
+                    </figure>  
+
+                </article>
+
+            </div>
+            
+        </section> <!--   Sección Portafolio -->
+        
+        <div class="title" >
+            <div class="container title">
+                <h2 style="font-weight: bold; font-size: 2em; margin: 0; padding: 0; "> Más sobre mi experiencia </h2>
+            </div>
+
+        </div>
+        
+        <section id="eventos" class="event-list"> 
+            
+            <div class="container">
+                <article class="event">
+                    <figure class="event-imageContainer">   
+                        <img class="img" src="images/logo_TET.jpeg" style="height: 250px; object-fit: cover" alt="TET 2019">
+                    </figure>   
+                    <div class="event-details">
+                        <h3 class="event-title"> TET 2019 </h3>
+                        <p class="event-description"> Evento de Tecnologías Emergenetes en Telecomunicaciones </p>
+                        <div class="event-boton">
+                            <a class="event-url"  href="https://fiet.unicauca.edu.co/tet/"> Conoce más </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">   
+                        <img class="img" src="images/logo_campus_party.jpg" style="height: 250px; object-fit: cover; " alt="Campus Party Colombia 2019">
+                    </figure>   
+                    <div class="event-details">
+                        <h3 class="event-title"> Campus Party Colombia 2019 </h3>
+                        <p class="event-description tet"> Evento en que por 4 días y 4 noches personas de todas las edades se reunen para compartir conocimiento y formarse en el mundo de la tecnología. </p>
+                        <div class="event-boton">
+                        <a class="event-url"  href="https://fiet.unicauca.edu.co/tet/"> Conoce más </a>
+                        </div>
+                    </div>
+                </article> 
+            </div>   
+        </section> <!--   Sección Experiencia -->
+ 
+        <section id="contacto" class="contact"> 
+            
+            <div class="container">
+                <form action="/suscripcion/" class="form-email">
+                    <h3 style="display: block;"> ¿Creamos algo juntos? </h3>
+                    <div class="form-content">
+                        <input type="text" placeholder="Déjame tu e-mail" id="email"> 
+
+                        <div class="form-send">           
+                            <button> <i class="far fa-envelope fa-x"></i> Enviar </button> 
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="social">
+                    <a href="https://twitter.com/nicol_palomino" class="social-link Twitter" target="_blank"> <i class="fab fa-twitter"></i> </a>
+                    <a href="https://www.facebook.com/nicol.palominovenachi" class="social-link Facebook" target="_blank"> <i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/NicoleVenachi" class="social-link Github" target="_blank"> <i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/nicole_venachi/" class="social-link Instagram" target="_blank"> <i class="fab fa-instagram"></i></a>
+                </div> 
+            </div>
+            
+        </section> <!--   Sección Contacto -->
+
+        <footer class=" footer">
+
+            <div class="container">
+
+                <div class="footer_box">
+                    <ol>
+                        <li>
+                            <a href="#"> Preguntas Frecuentes </a>
+                        </li>
+                        <li>
+                            <a href="#"> Términos y condiciones </a>
+                        </li>
+                        <li>
+                            <a href="#"> Contáctanos </a>
+                        </li>
+                        <li>
+                            <a href="#"> Privacidad </a>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="footer_box_credits">
+                    <p> 
+                        Designed with <3 by <a style="display: inline; color: green;" href="#">Nicole Venachi</a>
+                    </p>     
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+    </body>
+</html>

@@ -1,0 +1,281 @@
+body {
+
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+	line-height: 150%;
+	letter-spacing: -0.2px;
+}
+
+h1 strong {
+ 	color: #35D91F;
+	//color: #026fff;
+}
+
+h2 {
+	color: #026fff;
+	text-transform: uppercase;
+	font-family:  'Source Sans Pro', sans-serif;
+}
+
+.hero {
+	/* background-color: #1b2127; */
+	color: white;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0.5;
+	background: #1b2127;
+}
+
+.hero h1 {
+	text-align: justify;
+	padding: 0 10px;
+}
+
+
+.img {
+
+	width: 400px;
+	padding: 0 0 0 0px;
+
+}
+
+.portfolio {
+	background: #fafafa;
+	padding: 1.2rem;
+}
+
+.project-article {
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin: 0.6rem;
+	margin-bottom: 0.8rem;
+	padding: 1.5rem;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+}
+
+.project-details {
+	width: 400px;
+	text-align: justify;
+}
+
+.project-title {
+	font-size: 2em;
+}
+
+.event-list {
+	background-color: #fafafa;
+	padding: 1.2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.event {
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin: 0.6rem;
+	margin-bottom: 0.8rem;
+	padding: 1.2rem;
+	padding: 1.5rem;
+	background: white;
+	flex-shrink: 0;
+	background-color: white;
+}
+
+.event-imageContainer {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+
+.event-details {
+	margin: 1.2rem;
+	background-color: #fafafa;
+	border-radius: 10px;
+	padding: 1rem;
+	text-align: justify;
+	width: 521.93px;
+}
+
+.event-boton {
+	display: flex;
+	justify-content: center;
+}
+
+.event-url {
+	border: 1px solid #056fff;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 0.4rem 1.2rem;
+	text-align: center;
+	margin: 0 9rem;
+}
+
+.contact {
+	background-color: #056fff;
+	color: white;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.form-email h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.form-email input{
+	border-color: gray;
+	border-radius: 10px;
+	padding: 2px 10px;
+	border-style: solid;
+	border-color: white;
+	margin: 0 10px;
+	font-size: 1rem;
+
+}
+
+.form-send {
+	color: white;
+}
+.form-email button {
+	background: transparent;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: white;
+	color: white;
+	padding: 0 10px;
+	font-size: 1rem;
+	margin: 0 10px;
+
+}
+.social {
+	display: flex;
+	justify-content: space-around;
+}
+
+.social-link {
+	display: inline-block;
+	font-size: 50px;
+	color: white;
+	margin: 0 10px;
+}
+
+
+.header {
+	background-color: #1b2127;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	height: 62px;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-group-item-info {
+	margin: 0 10px;
+}
+
+ol, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.dropdown-menu-left{
+	height: inherit;
+}
+
+.header ol {
+	display: flex;
+	height: inherit;
+}
+
+.header ol li {
+	height: inherit;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	display: flex;
+	height: inherit;
+	padding: 0 10px;
+}
+
+.footer {
+	background-color: # ;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	background-color: #1b2127;
+}
+
+.footer_box {
+	display: flex;
+	padding: 0 10px;
+}
+
+.footer ol {
+	display: flex;
+	justify-content: space-around;
+	height: inherit;
+	flex-wrap: nowrap;
+}
+
+.footer ol li {
+	height: inherit;
+}
+.footer a {
+	color: white;
+	display: flex;
+	height: inherit;
+	padding: 0 10px
+
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	height: inherit;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	flex-wrap: inherit;
+
+}
+
+.container.heroCont {
+	background-image: url(../images/background.jpg);
+}
+
+.title {
+	background-color: #fafafa;
+}
+
+.fa-envelope:hover {
+	color: blue;
+}
